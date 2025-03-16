@@ -1,103 +1,135 @@
-import Image from "next/image";
+'use client'
 
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+import PageWrapper from "@/src/Components/PageWrapper";
+import NavigationBar from "@/src/Components/NavigationBar";
+import { useState } from 'react';
+import RecipeList from "@/src/Components/RecipeList";
+import RECIPES from "@/data/book.config";
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+interface SearchBarProps {
+    searchQuery: string;
+    setSearchQuery: (query: string) => void;
+}
+
+// Search bar component with modern styling
+const SearchBar: React.FC<SearchBarProps> = ({ searchQuery, setSearchQuery }) => {
+
+    const searchBarStyles = {
+        container: {
+            maxWidth: '800px',
+            margin: '2rem auto',
+            padding: '1rem',
+        },
+        form: {
+            display: 'flex',
+            flexDirection: 'column' as const,
+            width: '100%',
+        },
+        heading: {
+            textAlign: 'center' as const,
+            fontSize: '1.75rem',
+            color: '#333333',
+            margin: '0 0 1.5rem 0',
+            fontWeight: '600',
+            fontFamily: 'Arial, Helvetica, sans-serif',
+        },
+        inputContainer: {
+            display: 'flex',
+            position: 'relative' as const,
+            width: '100%',
+            boxShadow: '0 4px 12px rgba(0, 0, 0, 0.08)',
+            borderRadius: '12px',
+            overflow: 'hidden',
+        },
+        input: {
+            flex: '1',
+            padding: '1rem 1.5rem',
+            fontSize: '1rem',
+            border: 'none',
+            outline: 'none',
+            backgroundColor: 'white',
+            color: '#333',
+            fontFamily: 'Arial, Helvetica, sans-serif',
+        },
+        button: {
+            background: '#0088cc',
+            color: 'white',
+            border: 'none',
+            padding: '0 1.5rem',
+            cursor: 'pointer',
+            fontSize: '1rem',
+            fontWeight: 'bold',
+            transition: 'background-color 0.2s ease',
+            fontFamily: 'Arial, Helvetica, sans-serif',
+        },
+        hint: {
+            marginTop: '1rem',
+            color: '#666',
+            fontSize: '0.9rem',
+            textAlign: 'center' as const,
+            fontFamily: 'Arial, Helvetica, sans-serif',
+        }
+    };
+
+    // const handleSearch = (e: React.FormEvent) => {
+    //     e.preventDefault();
+    //     // Handle search logic here
+    //     console.log('Searching for:', searchQuery);
+    // };
+
+    return (
+        <div style={searchBarStyles.container}>
+            <form style={searchBarStyles.form}>
+                <h2 style={searchBarStyles.heading}>WIP Mahan Cookbook</h2>
+                <div style={searchBarStyles.inputContainer}>
+                    <input
+                        style={searchBarStyles.input}
+                        type="text"
+                        placeholder="Search for recipes, ingredients, or cuisines..."
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                    />
+                </div>
+                {
+                    searchQuery.length == 0 && (
+                        <p style={searchBarStyles.hint}>
+                            Try searching for xyz
+                        </p>
+                    )
+                }
+            </form>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+    );
+};
+
+export default function HomePage() {
+
+    const [searchQuery, setSearchQuery] = useState('');
+
+    const recipes = RECIPES.recipes.filter((recipe) => {
+        return recipe.name.toLowerCase().includes(searchQuery.toLowerCase());
+    });
+
+    return (
+        <PageWrapper>
+                <NavigationBar
+                    links={[
+                        {
+                            title: "Search",
+                            destination: "/",
+                            isSelected: true
+                        },
+                        {
+                            title: "Browse",
+                            destination: "/browse",
+                            isSelected: false
+                        }
+                    ]}
+                />
+                <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
+                
+                <RecipeList recipes={searchQuery.length > 0 ? recipes : []} />
+
+        </PageWrapper>
+    );
 }
