@@ -202,6 +202,13 @@ const Recipe: React.FC<RecipeProps> = ({ recipe }) => {
                     )
                 }
                 
+                {
+                    !recipe.instructions && (
+                        <div>
+                            <p>Instructions were not provided for this recipe.</p>
+                        </div>
+                    )
+                }
 
                 {
                     recipe.notes && (

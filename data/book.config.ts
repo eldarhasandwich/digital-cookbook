@@ -2737,6 +2737,1555 @@ const RECIPES: RecipeBookT = {
                 "Spoon into the tomatoes.",
                 "Refrigerate until serving."
             ]
+        },
+        {
+            slug: "asparagus-beef-stir-fry",
+            name: "Asparagus Beef Stir Fry",
+            ingredients: [
+                {
+                    name: "Beef Roast",
+                    quantity: 1,
+                    quantityUnit: Unit.LB,
+                    extraInstructions: "Cubed"
+                },
+                {
+                    name: "Green Onion",
+                    quantity: 1,
+                    extraInstructions: "Sliced"
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Black Pepper",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Canola Oil",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Garlic",
+                    quantity: 3,
+                    extraInstructions: "Cloves, minced"
+                },
+                {
+                    name: "Fresh Asparagus",
+                    quantity: 1,
+                    quantityUnit: Unit.LB,
+                    extraInstructions: "Trimmed and cut into 2 inch pieces"
+                },
+                {
+                    name: "Fresh Mushrooms",
+                    quantity: 0.5,
+                    quantityUnit: Unit.LB,
+                    extraInstructions: "Sliced"
+                },
+                {
+                    name: "Butter",
+                    quantity: 0.25,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "Cubed"
+                },
+                {
+                    name: "Soy Sauce",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Lemon Juice",
+                    quantity: 1.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Hot Cooked Rice",
+                    extraInstructions: "For serving"
+                }
+            ],
+            instructions: [
+                "In a wok or large skillet, stir fry the beef, onion, salt, and pepper in oil 3-5 minutes.",
+                "Add garlic and cook 1 minute longer.",
+                "Remove and keep warm.",
+                "In the same pan, stir-fry the asparagus and mushrooms in butter until the asparagus is tender.",
+                "Return the beef mixture to pan; stir in soy sauce and lemon juice; heat through.",
+                "Serve with rice."
+            ]
+        },
+        {
+            slug: "caramelized-butternut-squash",
+            name: "Caramelized Butternut Squash",
+            ingredients: [
+                {
+                    name: "Unsalted Butter",
+                    quantity: 6,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "Melted"
+                },
+                {
+                    name: "Brown Sugar",
+                    quantity: 0.25,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "Packed"
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Ground Black Pepper",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Butternut Squash",
+                    extraInstructions: "Peeled and cubed"
+                }
+            ],
+            instructions: [
+                "Preheat oven to 400°.",
+                "Cut off and discard the ends of the squash, peel the squash, cut them in half lengthwise, and remove seeds.",
+                "Cut the squash into 1-1/2 to 1\" thick cubes and place them on baking sheet.",
+                "Add the melted butter, brown sugar, salt, and pepper.",
+                "Toss all the ingredients together and spread in a single layer on baking sheet.",
+                "Roast for 45 to 55 minutes, until the squash is tender and the glaze begins to caramelize.",
+                "While roasting, turn the squash a few times with a spatula to be sure it browns evenly."
+            ]
+        },
+        {
+            slug: "baked-eggplant",
+            name: "Baked Eggplant",
+            ingredients: [
+                {
+                    name: "Eggplant",
+                    extraInstructions: "Peeled and sliced into 1/2 inch slices"
+                },
+                {
+                    name: "Mayonnaise",
+                    extraInstructions: "For coating"
+                },
+                {
+                    name: "Bread Crumbs",
+                    extraInstructions: "For coating"
+                }
+            ],
+            instructions: [
+                "Preheat oven to 350°.",
+                "Line a baking pan with foil.",
+                "Place bread crumbs in a shallow dish.",
+                "Coat each slice of eggplant on both sides with mayonnaise.",
+                "Press into bread crumbs to coat.",
+                "Place coated eggplant slices on prepared baking sheet.",
+                "Bake for 20 minutes in the preheated oven, until golden brown.",
+                "Flip slices over, and cook for an additional 20 to 25 minutes to brown the other side."
+            ]
+        },
+        {
+            slug: "basic-doughnuts",
+            name: "Basic Doughnuts",
+            ingredients: [
+                {
+                    name: "Self Rising Flour",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Sugar",
+                    quantity: 0.25,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Milk",
+                    quantity: 0.5,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Egg",
+                    quantity: 1
+                },
+                {
+                    name: "Oil",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Salt",
+                    extraInstructions: "Pinch"
+                },
+                {
+                    name: "Nutmeg",
+                    extraInstructions: "2 pinches (optional)"
+                }
+            ],
+            additionalIngredientGroups: [
+                {
+                    name: "Glaze",
+                    ingredients: [
+                        {
+                            name: "Butter",
+                            quantity: 1,
+                            quantityUnit: Unit.TABLESPOON,
+                            extraInstructions: "Melted"
+                        },
+                        {
+                            name: "Powdered Sugar",
+                            quantity: 0.5,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Milk",
+                            quantity: 1,
+                            quantityUnit: Unit.TABLESPOON
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            slug: "crockpot-chicken-and-vegetables",
+            name: "Crockpot Chicken and Vegetables",
+            ingredients: [
+                {
+                    name: "Boneless Skinless Chicken Breasts",
+                    quantity: 2
+                },
+                {
+                    name: "Whole Green Beans",
+                    quantity: 3,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Red Potatoes",
+                    quantity: 5,
+                    extraInstructions: "Medium, cut up in chunks"
+                },
+                {
+                    name: "Dry Ranch Mix",
+                    quantity: 1,
+                    extraInstructions: "1 package"
+                },
+                {
+                    name: "Dry Chicken Gravy Mix",
+                    quantity: 1,
+                    extraInstructions: "1 package"
+                },
+                {
+                    name: "Butter",
+                    quantity: 1,
+                    quantityUnit: Unit.STICK
+                },
+                {
+                    name: "Water",
+                    quantity: 0.33,
+                    quantityUnit: Unit.CUP
+                }
+            ],
+            instructions: [
+                "Place green beans on one side of crockpot.",
+                "Place cut potatoes on the other side.",
+                "Place chicken in the center.",
+                "Mix together the dry ranch mix and chicken gravy mix.",
+                "Sprinkle the dry mix evenly over the chicken.",
+                "Place half of the butter on top of the dry mix covered chicken.",
+                "Slowly pour water on the green beans and potatoes (not the chicken).",
+                "Cook on low for 6-8 hours until the chicken is done and tender."
+            ]
+        },
+        {
+            slug: "spaghetti-squash",
+            name: "Spaghetti Squash",
+            ingredients: [
+                {
+                    name: "Spaghetti Squash",
+                    quantity: 1,
+                    extraInstructions: "Whole"
+                },
+                {
+                    name: "Olive Oil",
+                    extraInstructions: "For brushing"
+                },
+                {
+                    name: "Salt",
+                    extraInstructions: "To taste"
+                },
+                {
+                    name: "Black Pepper",
+                    extraInstructions: "To taste"
+                }
+            ],
+            instructions: [
+                "Preheat oven to 375°.",
+                "With a very sharp knife, cut off top and bottom of squash so that it will stand secure and flat on your cutting board.",
+                "Slice the squash in half.",
+                "Brush each half of squash with olive oil and sprinkle with salt and black pepper.",
+                "Place cut sides down on rimmed baking sheet and pierce in oven.",
+                "Bake for about 40 minutes, or until you can pierce the squash with a fork.",
+                "Let cool for about 15 minutes, or until squash is cool enough to handle.",
+                "With a fork, scrape out the spaghetti-like strands and prepare as desired."
+            ]
+        },
+        {
+            slug: "buttery-garlic-spaghetti-squash",
+            name: "Buttery Garlic Spaghetti Squash",
+            ingredients: [
+                {
+                    name: "Butter",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Garlic",
+                    quantity: 2,
+                    extraInstructions: "Cloves, finely minced"
+                },
+                {
+                    name: "Parsley",
+                    quantity: 0.25,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "Finely minced"
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Parmesan Cheese",
+                    quantity: 0.25,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "Shredded"
+                },
+                {
+                    name: "Spaghetti Squash",
+                    extraInstructions: "Cooked and scraped into strands"
+                }
+            ],
+            instructions: [
+                "Heat a large saute pan with the butter & garlic over medium low heat.",
+                "When garlic becomes fragrant, add parsley, salt and spaghetti squash strands.",
+                "Toss well & sprinkle in the parmesan.",
+                "The spaghetti squash should have a slight crunch (not mushy) but if you like it softer, cover and cook 2 more minutes."
+            ]
+        },
+        {
+            slug: "chicken-asparagus-skillet-supper",
+            name: "Chicken & Asparagus Skillet Supper",
+            ingredients: [
+                {
+                    name: "Chicken Thighs",
+                    quantity: 8,
+                    extraInstructions: "Skinless, boneless"
+                },
+                {
+                    name: "Bacon",
+                    quantity: 3,
+                    extraInstructions: "Slices, coarsely chopped"
+                },
+                {
+                    name: "Chicken Broth",
+                    quantity: 0.5,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Asparagus Spears",
+                    quantity: 1,
+                    quantityUnit: Unit.LB,
+                    extraInstructions: "Trimmed"
+                },
+                {
+                    name: "Yellow Summer Squash",
+                    extraInstructions: "Halved crosswise and cut into strips"
+                },
+                {
+                    name: "Green Onions",
+                    quantity: 4,
+                    extraInstructions: "Cut into 2\" pieces"
+                },
+                {
+                    name: "Salt",
+                    extraInstructions: "To taste"
+                },
+                {
+                    name: "Black Pepper",
+                    extraInstructions: "To taste"
+                },
+                {
+                    name: "Water",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                }
+            ],
+            instructions: [
+                "Sprinkle chicken with salt and pepper.",
+                "In 12\" skillet cook the chicken and bacon over medium-high heat 12 minutes, turning occasionally.",
+                "Carefully add broth; reduce heat; cook 3-5 minutes more or until the chicken is tender and no longer pink.",
+                "Meanwhile in microwave-safe 2 quart dish combine asparagus, squash, and 2 tablespoons water.",
+                "Sprinkle with salt and pepper.",
+                "Cover with vented plastic wrap.",
+                "Cook on high 3-5 minutes, or until vegetables are crisp-tender, stirring once.",
+                "Transfer to plates and drizzle cooking liquid; top with chicken, bacon, and onions."
+            ]
+        },
+        {
+            slug: "aioli",
+            name: "Aioli",
+            ingredients: [
+                {
+                    name: "Sour Cream",
+                    extraInstructions: "As needed"
+                },
+                {
+                    name: "Lemon Juice",
+                    extraInstructions: "To taste"
+                },
+                {
+                    name: "Onion",
+                    extraInstructions: "Chopped"
+                },
+                {
+                    name: "Fresh Dill",
+                    extraInstructions: "To taste"
+                },
+                {
+                    name: "Garlic",
+                    quantity: 2,
+                    extraInstructions: "Cloves"
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                }
+            ],
+            instructions: [
+                "Combine all ingredients.",
+                "Chill until serving."
+            ]
+        },
+        {
+            slug: "asian-pork-skillet",
+            name: "Asian Pork Skillet",
+            ingredients: [
+                {
+                    name: "Oil",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Boneless Pork",
+                    quantity: 12,
+                    quantityUnit: Unit.OZ,
+                    extraInstructions: "Cut into strips"
+                },
+                {
+                    name: "Water",
+                    quantity: 1.5,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Ramen Noodles",
+                    quantity: 3,
+                    quantityUnit: Unit.OZ,
+                    extraInstructions: "With seasoning packet"
+                },
+                {
+                    name: "Snow Peas",
+                    quantity: 2,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "Fresh"
+                },
+                {
+                    name: "Sweet Peppers",
+                    quantity: 2,
+                    extraInstructions: "Medium, red, orange, or yellow, cut into bite size"
+                },
+                {
+                    name: "Hoisin Sauce",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Black Pepper",
+                    extraInstructions: "Fresh ground, to taste"
+                }
+            ],
+            instructions: [
+                "In large skillet heat oil. Add pork, cook and stir about 2 minutes until no longer pink.",
+                "Add water to skillet. Bring to boil.",
+                "Add noodles, seasoning packet, snow peas, sweet peppers and hoisin sauce.",
+                "Return to boiling; reduce heat simmer, covered, for 5 minutes.",
+                "Season with fresh pepper."
+            ]
+        },
+        {
+            slug: "corn-tomato-zucchini-skillet",
+            name: "Corn, Tomato, and Zucchini Skillet",
+            ingredients: [
+                {
+                    name: "Fresh Corn",
+                    quantity: 1.5,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "Or 2 ears"
+                },
+                {
+                    name: "Zucchini",
+                    quantity: 2,
+                    extraInstructions: "Small, sliced into 1/3\" rounds"
+                },
+                {
+                    name: "Roma Tomatoes",
+                    quantity: 2,
+                    extraInstructions: "Small, peeled and chopped"
+                },
+                {
+                    name: "Grape Tomatoes",
+                    extraInstructions: "Small handful, halved"
+                },
+                {
+                    name: "Bell Pepper",
+                    quantity: 0.5,
+                    extraInstructions: "Cut into 2-3\" matchsticks"
+                },
+                {
+                    name: "Olive Oil",
+                    quantity: 2,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Salt",
+                    extraInstructions: "To taste"
+                },
+                {
+                    name: "Black Pepper",
+                    extraInstructions: "To taste"
+                },
+                {
+                    name: "Oregano",
+                    extraInstructions: "To taste"
+                }
+            ],
+            instructions: [
+                "In a large skillet, warm the olive oil over medium heat.",
+                "Add the peppers and sauté for a couple of minutes, until barely softened.",
+                "Add the corn and tomatoes; stir to combine.",
+                "Season with salt and pepper and continue to sauté for another 1-2 minutes.",
+                "Add the oregano, toss well and taste.",
+                "Sauté until everything is warm and the vegetables are still crisp and barely tender."
+            ]
+        },
+        {
+            slug: "great-pumpkin-dessert",
+            name: "Great Pumpkin Dessert",
+            ingredients: [
+                {
+                    name: "Solid Pack Pumpkin",
+                    quantity: 1,
+                    extraInstructions: "15 oz can"
+                },
+                {
+                    name: "Evaporated Milk",
+                    quantity: 1,
+                    extraInstructions: "12 oz can"
+                },
+                {
+                    name: "Eggs",
+                    quantity: 3
+                },
+                {
+                    name: "Sugar",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Pumpkin Pie Spice",
+                    quantity: 4,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Yellow Cake Mix",
+                    quantity: 1,
+                    extraInstructions: "1 package"
+                },
+                {
+                    name: "Butter",
+                    quantity: 0.75,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "Melted"
+                },
+                {
+                    name: "Walnuts",
+                    quantity: 1.5,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "Chopped"
+                }
+            ],
+            instructions: [
+                "In a large bowl, beat the first five ingredients until smooth.",
+                "Transfer to a 9x13 greased baking dish.",
+                "Sprinkle cake mix evenly over top.",
+                "Drizzle with butter.",
+                "Bake at 350°F for 1 hour or until a knife inserted near the center comes out clean.",
+                "Serve with ice cream or whipped cream."
+            ],
+            notes: "12-16 servings"
+        },
+        {
+            slug: "cinnamon-applesauce-bread",
+            name: "Cinnamon Applesauce Bread",
+            ingredients: [
+                {
+                    name: "All-Purpose Flour",
+                    quantity: 2.5,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Ground Cinnamon",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Baking Powder",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Egg",
+                    quantity: 1
+                },
+                {
+                    name: "Applesauce",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Brown Sugar",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Milk",
+                    quantity: 0.67,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Oil",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Walnuts",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "Chopped and divided"
+                },
+                {
+                    name: "Raisins",
+                    quantity: 0.5,
+                    quantityUnit: Unit.CUP
+                }
+            ],
+            instructions: [
+                "Beat egg, applesauce, brown sugar, milk, and oil together in a bowl.",
+                "Add flour, cinnamon, baking powder, salt and mix until all ingredients are wet.",
+                "Stir in half of the walnuts and the raisins.",
+                "Pour into a 9x5 loaf pan that has been sprayed with Cooking Spray.",
+                "Sprinkle the rest of the walnuts on top of the batter.",
+                "Bake in a preheated 350° oven for 55-60 minutes.",
+                "Cool in pan at least 10 minutes before removing."
+            ]
+        },
+        {
+            slug: "original-party-mix-1950",
+            name: "Original Party Mix 1950",
+            ingredients: [
+                {
+                    name: "Butter",
+                    quantity: 0.5,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Worcestershire Sauce",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Seasoned Salt",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Garlic Salt",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Wheat Chex",
+                    quantity: 3,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Rice Chex",
+                    quantity: 2,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Peanuts",
+                    quantity: 1.5,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Small Pretzel Sticks",
+                    quantity: 1.5,
+                    quantityUnit: Unit.CUP
+                }
+            ],
+            instructions: [
+                "Preheat oven to 275°.",
+                "Melt butter in a shallow pan.",
+                "Stir in Worcestershire sauce, seasoned salt, garlic salt.",
+                "Fold in all cereals, nuts and pretzels.",
+                "Mix until all pieces are coated with butter mixture.",
+                "Place in a shallow baking pan with sides.",
+                "Bake for 40 minutes, stirring every 10 minutes.",
+                "Cool and enjoy!"
+            ]
+        },
+        {
+            slug: "chex-party-mix-oven",
+            name: "Chex Party Mix (Oven-Baked)",
+            ingredients: [
+                {
+                    name: "Butter",
+                    quantity: 6,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Worcestershire Sauce",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Seasoning Salt",
+                    quantity: 1.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Garlic Powder",
+                    quantity: 0.75,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Onion Powder",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Corn Chex",
+                    quantity: 3,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Rice Chex",
+                    quantity: 3,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Wheat Chex",
+                    quantity: 3,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Nuts",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Pretzel Sticks",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Cheerios",
+                    quantity: 2.5,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Garlic Bagel Chips",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "Broken into bite size pieces (thick)"
+                }
+            ],
+            instructions: [
+                "Heat oven to 250°.",
+                "Melt butter in large roasting pan in oven.",
+                "Stir in seasonings.",
+                "Gradually stir in remaining ingredients until evenly coated.",
+                "Bake 1 hour stirring every 15 minutes.",
+                "Spread on paper towels to cool.",
+                "Store in air tight containers."
+            ]
+        },
+        {
+            slug: "chex-party-mix-microwave",
+            name: "Chex Party Mix (Microwave)",
+            ingredients: [
+                {
+                    name: "Corn Chex",
+                    quantity: 3,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Rice Chex",
+                    quantity: 3,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Wheat Chex",
+                    quantity: 3,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Nuts",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Pretzel Sticks",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Garlic Flavor Bagel Chips",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Butter",
+                    quantity: 6,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Worcestershire Sauce",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Seasoned Salt",
+                    quantity: 1.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Garlic Powder",
+                    quantity: 0.75,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Onion Powder",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                }
+            ],
+            instructions: [
+                "Mix cereals and bagel chips, nuts, pretzel set aside.",
+                "In small microwavable bowl melt butter, stir in seasonings.",
+                "Pour over cereal mixture, stir until evenly coated.",
+                "Microwave uncovered on high 5 to 6 minutes thoroughly stirring every 2 minutes.",
+                "Spread on paper towels to cool.",
+                "Store in air tight containers."
+            ]
+        },
+        {
+            slug: "creamy-potato-salad",
+            name: "Creamy Potato Salad",
+            ingredients: [
+                {
+                    name: "Potatoes",
+                    quantity: 1.5,
+                    quantityUnit: Unit.LB,
+                    extraInstructions: "About 6 medium"
+                },
+                {
+                    name: "Mayonnaise",
+                    quantity: 1.5,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Vinegar",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Yellow Mustard",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Salt",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Black Pepper",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Celery",
+                    quantity: 2,
+                    extraInstructions: "Medium stalks (1 cup), chopped"
+                },
+                {
+                    name: "Onion",
+                    quantity: 1,
+                    extraInstructions: "Medium, chopped (½ cup)"
+                },
+                {
+                    name: "Hard Boiled Eggs",
+                    quantity: 4,
+                    extraInstructions: "Chopped"
+                },
+                {
+                    name: "Paprika",
+                    extraInstructions: "For sprinkling (optional)"
+                }
+            ],
+            instructions: [
+                "Place potatoes in saucepan and cook until tender, drain. Let stand until cool.",
+                "Mix mayonnaise, vinegar, mustard, salt and pepper in large bowl.",
+                "Add potatoes, celery and onion, toss.",
+                "Stir in eggs.",
+                "Sprinkle with paprika.",
+                "Cover and refrigerate at least 4 hours to blend flavors and chill.",
+                "Store covered in refrigerator."
+            ]
+        },
+        {
+            slug: "old-fashioned-peanut-butter-cookies",
+            name: "Old Fashioned Peanut Butter Cookies",
+            ingredients: [
+                {
+                    name: "Butter",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Peanut Butter",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Granulated Sugar",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Brown Sugar",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Eggs",
+                    quantity: 2
+                },
+                {
+                    name: "All-Purpose Flour",
+                    quantity: 3,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Baking Powder",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Baking Soda",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                }
+            ],
+            instructions: [
+                "Cream butter, peanut butter, and sugar till creamy.",
+                "Beat in eggs.",
+                "Stir in dry ingredients.",
+                "Roll dough into balls.",
+                "Place on lightly greased cookie sheets.",
+                "Flatten with fork.",
+                "Bake at 375° for 10 minutes."
+            ]
+        },
+        {
+            slug: "balsamic-glazed-chicken",
+            name: "Balsamic Glazed Chicken",
+            ingredients: [
+                {
+                    name: "Balsamic Vinegar",
+                    quantity: 0.5,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Honey",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Whole-Grain Mustard",
+                    quantity: 1.5,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Garlic",
+                    quantity: 3,
+                    extraInstructions: "Cloves, minced"
+                },
+                {
+                    name: "Salt",
+                    extraInstructions: "To taste"
+                },
+                {
+                    name: "Black Pepper",
+                    extraInstructions: "To taste"
+                },
+                {
+                    name: "Bone-in Chicken Thighs",
+                    quantity: 4
+                },
+                {
+                    name: "Baby Red Potatoes",
+                    quantity: 2,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Fresh Rosemary",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "Chopped"
+                },
+                {
+                    name: "Extra Virgin Olive Oil",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Fresh Rosemary Sprigs",
+                    quantity: 3,
+                    extraInstructions: "For skillet"
+                }
+            ],
+            instructions: [
+                "Preheat oven to 425º.",
+                "In large bowl, combine balsamic vinegar, honey, mustard, and garlic, and season with salt and pepper. Whisk until combined.",
+                "Add chicken thighs and toss until thoroughly coated, then transfer to the fridge to marinate for at least 20 minutes, up to 1 hour.",
+                "Prep the potatoes: In a medium bowl, add potatoes and rosemary. Season with salt and pepper. Add 1 TBS olive oil and toss until combined.",
+                "In a large skillet over medium heat, heat the remaining tablespoon of olive oil.",
+                "Add chicken and marinade and sear, skin side down, 2 minutes, then flip and sear two minutes more.",
+                "Add the potatoes to skillet, around the chicken and rosemary sprigs.",
+                "Transfer to the oven and bake until potatoes are tender and chicken is cooked through, 20 minutes.",
+                "Serve chicken and potatoes with pan drippings."
+            ]
+        },
+        {
+            slug: "mediterranean-chicken-and-vegetables",
+            name: "Mediterranean Chicken and Vegetables",
+            ingredients: [
+                {
+                    name: "Lemon Juice",
+                    quantity: 0.33,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Olive Oil",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Dried Rosemary Leaves",
+                    quantity: 2,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Black Pepper",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Garlic",
+                    quantity: 8,
+                    extraInstructions: "Cloves, chopped"
+                },
+                {
+                    name: "Chicken Thighs",
+                    quantity: 16
+                },
+                {
+                    name: "Red Potatoes",
+                    quantity: 2,
+                    extraInstructions: "Large, cut into 1/2\" pieces"
+                },
+                {
+                    name: "Zucchini",
+                    quantity: 2,
+                    extraInstructions: "Small, cut into 1\" pieces"
+                },
+                {
+                    name: "Red Bell Peppers",
+                    quantity: 2,
+                    extraInstructions: "Medium, cut into 1\" pieces"
+                },
+                {
+                    name: "Red Onion",
+                    quantity: 1,
+                    extraInstructions: "Cut into thick pieces"
+                },
+                {
+                    name: "Parmesan Cheese",
+                    extraInstructions: "Shredded, for sprinkling (optional)"
+                }
+            ],
+            instructions: [
+                "In a bowl, mix marinade ingredients.",
+                "In large resealable plastic bag, place chicken thighs.",
+                "In another resealable bag, place vegetables.",
+                "Pour half the marinade over the chicken and half the marinade over the vegetables.",
+                "Seal the bags, turn to coat contents with the marinade.",
+                "Refrigerate 30 minutes to 2 hours (but no longer than 2 hours), turning the bags occasionally.",
+                "Heat oven to 400°.",
+                "Line a 15 x 10 x 1\" pan with foil.",
+                "Place chicken thighs, skin side up on one side of the pan and vegetables on the other side of pan.",
+                "Pour any remaining marinade over chicken and vegetables.",
+                "Bake 35 to 40 minutes, or until vegetables are tender and juice of chicken is clear.",
+                "When thickest part is cut to bone (180°), spooning juices in pan over chicken and vegetables halfway through bake time.",
+                "Sprinkle with shredded parmesan cheese if desired."
+            ]
+        },
+        {
+            slug: "one-pan-ranch-pork-chops",
+            name: "One Pan Ranch Pork Chops",
+            ingredients: [
+                {
+                    name: "Bone-in Pork Chops",
+                    quantity: 4,
+                    extraInstructions: "8 oz. each"
+                },
+                {
+                    name: "Baby Red Potatoes",
+                    quantity: 16,
+                    quantityUnit: Unit.OZ,
+                    extraInstructions: "Halved"
+                },
+                {
+                    name: "Green Beans",
+                    quantity: 16,
+                    quantityUnit: Unit.OZ,
+                    extraInstructions: "Trimmed"
+                },
+                {
+                    name: "Olive Oil",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Ranch Seasoning and Salad Dressing Mix",
+                    quantity: 1,
+                    extraInstructions: "0.9 oz. package"
+                },
+                {
+                    name: "Garlic",
+                    quantity: 3,
+                    extraInstructions: "Cloves, minced"
+                },
+                {
+                    name: "Salt",
+                    extraInstructions: "To taste"
+                },
+                {
+                    name: "Black Pepper",
+                    extraInstructions: "To taste"
+                },
+                {
+                    name: "Fresh Parsley",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "Freshly chopped leaves (optional)"
+                }
+            ],
+            instructions: [
+                "Preheat oven to 400°. Lightly coat a baking sheet with a nonstick spray.",
+                "Place pork chops, potatoes, and green beans in a single layer onto the prepared baking sheet.",
+                "Drizzle with olive oil and season with Ranch Seasoning and garlic.",
+                "Sprinkle with salt and pepper to taste.",
+                "Place in oven and roast until the pork is completely cooked through, reaching an internal temperature of 140°, about 20-22 minutes.",
+                "Then broil for 2-3 minutes, or until caramelized and slightly charred.",
+                "Serve immediately, garnished with parsley, if desired."
+            ]
+        },
+        {
+            slug: "all-purpose-biscuits",
+            name: "All-purpose Biscuits",
+            ingredients: [
+                {
+                    name: "All-Purpose Flour",
+                    quantity: 2,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Baking Powder",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Sugar",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "Scant"
+                },
+                {
+                    name: "Salt",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Cold Unsalted Butter",
+                    quantity: 5,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Whole Milk",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                }
+            ],
+            instructions: [
+                "Preheat oven to 425°.",
+                "Sift flour, baking powder, sugar and salt into a large mixing bowl.",
+                "Cut butter into flour mixture using fork or a pastry cutter.",
+                "Add milk and stir with a fork until it forms a rough ball.",
+                "Turn the dough out onto a well-floured surface and pat down into a rough rectangle about an inch thick.",
+                "Fold it over and gently pat down again. Repeat.",
+                "Cover with towel and allow to rest for 30 minutes.",
+                "Gently pat out the dough some more, so that the rectangle is roughly 10\"x6\".",
+                "Cut dough into biscuits using a biscuit cutter. Do not twist cutter when cutting; this crimps the edges of the biscuit and impedes its rise.",
+                "Place biscuits on a cookie sheet and bake until golden brown approximately 10 to 15 minutes."
+            ]
+        },
+        {
+            slug: "hush-puppies",
+            name: "Hush Puppies",
+            ingredients: [
+                {
+                    name: "Cornmeal",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "All-Purpose Flour",
+                    quantity: 0.25,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Baking Powder",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Egg",
+                    quantity: 1,
+                    extraInstructions: "Lightly beaten"
+                },
+                {
+                    name: "Milk",
+                    quantity: 0.75,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Onion",
+                    quantity: 1,
+                    extraInstructions: "Small, finely chopped"
+                }
+            ],
+        },
+        {
+            slug: "easy-coleslaw-dressing",
+            name: "Easy Coleslaw Dressing",
+            ingredients: [
+                {
+                    name: "Mayonnaise",
+                    quantity: 0.5,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "Miracle whip"
+                },
+                {
+                    name: "Lemon Juice",
+                    quantity: 1.5,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Vinegar",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Black Pepper",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Sugar",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                }
+            ]
+        },
+        {
+            slug: "tartar-sauce",
+            name: "Tartar Sauce",
+            ingredients: [
+                {
+                    name: "Mayonnaise",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Sweet Pickle Relish",
+                    quantity: 2,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Prepared Mustard",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Lemon Juice",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                }
+            ]
+        },
+        {
+            slug: "cocktail-sauce",
+            name: "Cocktail Sauce",
+            ingredients: [
+                {
+                    name: "Catsup",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Horseradish",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "To your taste (1-2 TBS)"
+                },
+                {
+                    name: "Lemon Juice",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Worcestershire Sauce",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Black Pepper",
+                    extraInstructions: "1 dash"
+                }
+            ]
+        },
+        {
+            slug: "greek-rub",
+            name: "Greek Rub",
+            ingredients: [
+                {
+                    name: "Dried Oregano",
+                    quantity: 2,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Dried Basil",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Lemon Pepper Seasoning",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Garlic Powder",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                }
+            ]
+        },
+        {
+            slug: "pork-bbq-rub",
+            name: "Pork BBQ Rub",
+            ingredients: [
+                {
+                    name: "Brown Sugar",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "Packed"
+                },
+                {
+                    name: "Chili Powder",
+                    quantity: 2,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Smoked Paprika",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                }
+            ]
+        },
+        {
+            slug: "mustard-thyme-rub",
+            name: "Mustard-Thyme Rub",
+            ingredients: [
+                {
+                    name: "Yellow Mustard",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Honey",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Dried Thyme",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Black Pepper",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                }
+            ]
+        },
+        {
+            slug: "sweet-and-spicy-rub",
+            name: "Sweet and Spicy Rub",
+            ingredients: [
+                {
+                    name: "Brown Sugar",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "Packed"
+                },
+                {
+                    name: "Pumpkin Pie Spice",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Orange Zest",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Cayenne Pepper",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON,
+                    extraInstructions: "⅛ to ¼ tsp. to taste"
+                }
+            ]
+        },
+        {
+            slug: "suggested-roasting-vegetables",
+            name: "Suggested Vegetables for Roasting",
+            ingredients: [
+                {
+                    name: "Red Potatoes"
+                },
+                {
+                    name: "Sweet Potatoes"
+                },
+                {
+                    name: "Butternut Squash"
+                },
+                {
+                    name: "Acorn Squash"
+                },
+                {
+                    name: "Sweet Peppers"
+                },
+                {
+                    name: "Yellow or Red Onion"
+                },
+                {
+                    name: "Fresh Carrots",
+                    extraInstructions: "½-inch wedge"
+                },
+                {
+                    name: "Parsnips"
+                },
+                {
+                    name: "Brussel Sprouts"
+                },
+                {
+                    name: "Cauliflower",
+                    extraInstructions: "Florets"
+                },
+                {
+                    name: "Button or Cremini Mushrooms"
+                },
+                {
+                    name: "Cherry or Grape Tomatoes"
+                },
+                {
+                    name: "Garlic",
+                    extraInstructions: "Whole cloves"
+                }
+            ]
         }
     ]
 }
