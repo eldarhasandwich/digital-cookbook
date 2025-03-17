@@ -13,18 +13,26 @@ export enum Unit {
     LB = "lb",
     STICK = "Stick",
     OZ = "oz",
+    PACKAGE = "Package",
+    CAN = "Can"
 }
 
 export interface RecipeT {
     slug: string;
     name: string;
     description?: string;
-    ingredients: RecipeIngredientT[];
-    instructions: string[];
+    ingredients?: RecipeIngredientT[];
+    additionalIngredientGroups?: IngredientGroupT[];
+    instructions?: string[];
     notes?: string;
 }
 
-interface RecipeIngredientT {
+interface IngredientGroupT {
+    name: string;
+    ingredients: RecipeIngredientT[];
+}
+
+export interface RecipeIngredientT {
     name: string;
     quantityUnit?: Unit;
     quantity?: number;

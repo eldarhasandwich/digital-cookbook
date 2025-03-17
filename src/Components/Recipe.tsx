@@ -1,8 +1,38 @@
 "use client";
 
-import { RecipeT, Unit } from "../types";
+import { RecipeT, RecipeIngredientT, Unit } from "../types";
 import { formatQuantity } from "../utils/fractionUtils";
 import React, { useState, useEffect } from "react";
+
+interface IngredientProps {
+    index: number;
+    ingredient: RecipeIngredientT;
+    styles: any;
+}
+
+const Ingredient: React.FC<IngredientProps> = ({ index, ingredient, styles }) => {
+    return (
+        <li key={index} style={styles.ingredientItem}>
+            {
+                ingredient.quantity && (
+                    <span style={styles.ingredientQuantity}>
+                        {formatQuantity(ingredient.quantity, ingredient.quantityUnit)}
+                    </span>
+                )
+            }
+            <span> </span>
+            <span style={styles.ingredientName}>{ingredient.name}</span>
+            {ingredient.extraInstructions && (
+                <>
+                    <span> </span>
+                    <span style={styles.ingredientInstructions}>
+                        ({ingredient.extraInstructions})
+                    </span>
+                </>
+            )}
+        </li>
+    )
+}
 
 interface RecipeProps {
     recipe: RecipeT;
@@ -71,6 +101,15 @@ const Recipe: React.FC<RecipeProps> = ({ recipe }) => {
             paddingLeft: "10px",
             fontFamily: "'Playfair Display', 'Times New Roman', serif",
         },
+        smallSectionTitle: {
+            // fontSize: isMobile ? "0.8rem" : "1rem",
+            color: "#2c3e50",
+            marginBottom: "1rem",
+            fontWeight: "600",
+            borderLeft: "4px solid #f1c40f",
+            paddingLeft: "10px",
+            fontFamily: "'Playfair Display', 'Times New Roman', serif",
+        },
         ingredientsList: {
             listStyle: "none",
             padding: "0",
@@ -123,44 +162,46 @@ const Recipe: React.FC<RecipeProps> = ({ recipe }) => {
             )}
             
             <div style={styles.recipeContent}>
-                <div>
-                    <h2 style={styles.sectionTitle}>Ingredients</h2>
-                    <ul style={styles.ingredientsList}>
-                        {recipe.ingredients.map((ingredient, index) => (
-                            <li key={index} style={styles.ingredientItem}>
-                                {
-                                    ingredient.quantity && (
-                                        <span style={styles.ingredientQuantity}>
-                                            {formatQuantity(ingredient.quantity, ingredient.quantityUnit)}
-                                        </span>
-                                    )
-                                }
-                                <span> </span>
-                                <span style={styles.ingredientName}>{ingredient.name}</span>
-                                {ingredient.extraInstructions && (
-                                    <>
-                                        <span> </span>
-                                        <span style={styles.ingredientInstructions}>
-                                            ({ingredient.extraInstructions})
-                                        </span>
-                                    </>
-                                )}
-                            </li>
-                        ))}
-                    </ul>
-                </div>
+
+                {
+                    recipe.ingredients && (
+                        <div>
+                            <h2 style={styles.sectionTitle}>Ingredients</h2>
+                            <ul style={styles.ingredientsList}>
+                                {recipe.ingredients.map((ingredient, index) => (
+                                    <Ingredient key={index} index={index} ingredient={ingredient} styles={styles} />
+                                ))}
+                                {recipe.additionalIngredientGroups && recipe.additionalIngredientGroups.map((group, index) => (
+                                    <div key={index}>
+                                        <h3 style={styles.smallSectionTitle}>{group.name}</h3>
+                                        <ul style={styles.ingredientsList}>
+                                            {group.ingredients.map((ingredient, index) => (
+                                                <Ingredient key={index} index={index} ingredient={ingredient} styles={styles} />
+                                            ))}
+                                        </ul>
+                                    </div>
+                                ))}
+                            </ul>
+                        </div>
+                    )
+                }
+
+                {
+                    recipe.instructions && (
+                        <div>
+                            <h2 style={styles.sectionTitle}>Instructions</h2>
+                            <ol style={styles.instructionsList}>
+                                {recipe.instructions.map((instruction, index) => (
+                                    <li key={index} style={styles.instructionItem}>
+                                        <span style={styles.instructionNumber}>{index + 1}</span>
+                                        {instruction}
+                                    </li>
+                                ))}
+                            </ol>
+                        </div>
+                    )
+                }
                 
-                <div>
-                    <h2 style={styles.sectionTitle}>Instructions</h2>
-                    <ol style={styles.instructionsList}>
-                        {recipe.instructions.map((instruction, index) => (
-                            <li key={index} style={styles.instructionItem}>
-                                <span style={styles.instructionNumber}>{index + 1}</span>
-                                {instruction}
-                            </li>
-                        ))}
-                    </ol>
-                </div>
 
                 {
                     recipe.notes && (
