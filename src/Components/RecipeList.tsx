@@ -14,7 +14,7 @@ const RecipeList: React.FC<RecipeListProps> = ({ recipes }) => {
             <div className="recipe-grid">
                 {
                     recipes.map((recipe) => (
-                        <div key={recipe.name} className="recipe-item">
+                        <div key={recipe.slug} className="recipe-item">
                             <Link href={`/recipe/${recipe.slug}`}>
                                 <Recipe recipe={recipe} />
                             </Link>

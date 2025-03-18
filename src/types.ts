@@ -14,7 +14,8 @@ export enum Unit {
     STICK = "Stick",
     OZ = "oz",
     PACKAGE = "Package",
-    CAN = "Can"
+    CAN = "Can",
+    QUART = "quart"
 }
 
 export interface RecipeT {

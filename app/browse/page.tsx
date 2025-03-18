@@ -33,6 +33,13 @@ export default function BrowsePage() {
                 </h2>
             </header>
             <RecipeList recipes={RECIPES.recipes} />
+            <div className="page-footer">
+                <h3>
+                    {
+                        `Browsing all recipes; ${RECIPES.recipes.length} recipes available.`
+                    }
+                </h3>
+            </div>
             <style jsx>{`
                 .page-header h1 {
                     margin-top: 0.5rem;
@@ -40,6 +47,10 @@ export default function BrowsePage() {
                     font-weight: 600;
                 }
                 .page-header h2 {
+                    font-family: sans-serif;
+                    font-weight: 300;
+                }
+                .page-footer h3 {
                     font-family: sans-serif;
                     font-weight: 300;
                 }

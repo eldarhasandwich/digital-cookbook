@@ -26,7 +26,7 @@ const Ingredient: React.FC<IngredientProps> = ({ index, ingredient, styles }) =>
                 <>
                     <span> </span>
                     <span style={styles.ingredientInstructions}>
-                        ({ingredient.extraInstructions})
+                        {ingredient.extraInstructions}
                     </span>
                 </>
             )}
