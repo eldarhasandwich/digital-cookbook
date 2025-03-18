@@ -64,7 +64,7 @@ const Recipe: React.FC<RecipeProps> = ({ recipe }) => {
             padding: isMobile ? "1rem" : "2rem",
             backgroundColor: "#fff",
             borderRadius: "12px",
-            boxShadow: "0 4px 20px rgba(0, 0, 0, 0.08)",
+            boxShadow: "0 10px 10px rgba(0, 0, 0, 0.3)",
             fontFamily: "'Segoe UI', Roboto, 'Helvetica Neue', sans-serif",
         },
         recipeTitle: {
@@ -72,7 +72,7 @@ const Recipe: React.FC<RecipeProps> = ({ recipe }) => {
             color: "#2c3e50",
             marginBottom: "1.5rem",
             fontWeight: "700",
-            borderBottom: "3px solid #f1c40f",
+            borderBottom: "3px solid rgb(241, 196, 15)",
             paddingBottom: "0.75rem",
             fontFamily: "'Playfair Display', 'Times New Roman', serif",
             fontStyle: "italic",

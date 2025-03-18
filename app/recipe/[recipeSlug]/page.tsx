@@ -31,13 +31,8 @@ export default function RecipePage({ params }: RecipePageProps) {
                 <NavigationBar
                     links={[
                         {
-                            title: "Search",
+                            title: "Go Home",
                             destination: "/",
-                            isSelected: false
-                        },
-                        {
-                            title: "Browse",
-                            destination: "/browse",
                             isSelected: false
                         }
                     ]}

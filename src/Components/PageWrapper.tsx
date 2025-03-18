@@ -1,5 +1,11 @@
 import React from 'react';
 
+const ginghamScale = '6rem'
+const ginghamColorA = `rgba(211, 47, 47, 0.05)`
+const ginghamColorB = `rgba(211, 47, 47, 0.1)`
+// const ginghamColorA = `rgb(241, 196, 15, 0.1)`
+// const ginghamColorB = `rgb(241, 196, 15, 0.2)`
+
 const pageStyles = {
     wrapper: {
         margin: 0,
@@ -12,9 +18,17 @@ const pageStyles = {
         bottom: 0,
     },
     container: {
+        height: '',
+        width: '100vw',
         minHeight: '100%',
-        backgroundColor: '#e5e5e9',
-        background: 'linear-gradient(to bottom, #e8e8ec, #d8d8dc)',
+        backgroundColor: `#fff`,
+        backgroundImage: `
+            linear-gradient(90deg, ${ginghamColorA} 50%, transparent 50%),
+            linear-gradient(${ginghamColorA} 50%, transparent 50%),
+            linear-gradient(90deg, ${ginghamColorB} 50%, transparent 50%),
+            linear-gradient(${ginghamColorB} 50%, transparent 50%)`,
+        backgroundSize: `${ginghamScale} ${ginghamScale}`,
+        backgroundPosition: `0 0, 0 ${ginghamScale}, ${ginghamScale} -${ginghamScale}, -${ginghamScale} 0px`,
         padding: '0 1rem',
         boxSizing: 'border-box' as const
     }
