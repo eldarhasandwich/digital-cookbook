@@ -1,4 +1,5 @@
 import { RecipeBookT, Unit } from "../src/types";
+import RECIPES_BOOK2 from "./book2.config";
 
 const RECIPES: RecipeBookT = {
     recipes: [
@@ -6939,7 +6940,8 @@ const RECIPES: RecipeBookT = {
                 "Uncover, sprinkle remaining cheese over shells and return to oven for 10 minutes",
                 "Let rest for 10-15 minutes. Enjoy"
             ]
-        }
+        },
+        ...RECIPES_BOOK2.recipes
     ]
 }
 
