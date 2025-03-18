@@ -55,6 +55,7 @@ const NavigationBar: React.FC<NavigationBarProps> = ({
       color: colors.text,
       boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
       transition: 'all 0.3s ease',
+      borderRadius: "0 0 12px 12px",
     },
     logoSection: {
       display: 'flex',

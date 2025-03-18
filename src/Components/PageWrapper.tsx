@@ -15,8 +15,8 @@ const pageStyles = {
         minHeight: '100%',
         backgroundColor: '#e5e5e9',
         background: 'linear-gradient(to bottom, #e8e8ec, #d8d8dc)',
-        padding: '2rem 1rem',
-        boxSizing: 'border-box' as const,
+        padding: '0 1rem',
+        boxSizing: 'border-box' as const
     }
 };
 

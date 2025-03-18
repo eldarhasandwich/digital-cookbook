@@ -11,43 +11,17 @@ const RecipeList: React.FC<RecipeListProps> = ({ recipes }) => {
 
     return (
         <>
-            <div className="recipe-grid">
+            <div className="recipe-grid" style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
                 {
                     recipes.map((recipe) => (
                         <div key={recipe.slug} className="recipe-item">
-                            <Link href={`/recipe/${recipe.slug}`}>
+                            <Link href={`/recipe/${recipe.slug}`} style={{ textDecoration: 'none', color: 'inherit' }}>
                                 <Recipe recipe={recipe} />
                             </Link>
                         </div>
                     ))
                 }
             </div>
-            <style jsx>{`
-                .recipe-grid {
-                    display: flex;
-                    flex-direction: column;
-                    gap: 2rem;
-                }
-                .recipe-item:last-child {
-                    border-bottom: none;
-                }
-                .recipe-item a {
-                    text-decoration: none !important;
-                    color: inherit !important;
-                }
-                .recipe-item a * {
-                    text-decoration: none !important;
-                    color: inherit !important;
-                }
-                /* This targets Next.js specific styling */
-                :global(.recipe-item a) {
-                    text-decoration: none !important;
-                    color: inherit !important;
-                }
-                :global(.recipe-item a *) {
-                    color: inherit !important;
-                }
-            `}</style>
         </>
     )
 

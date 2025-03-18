@@ -1,10 +1,7 @@
 "use client";
 
 import RECIPES from "@/data/book.config";
-import Recipe from "@/src/Components/Recipe";
 import PageWrapper from "@/src/Components/PageWrapper";
-import Link from "next/link";
-import Button from "@/src/Components/Button";
 import NavigationBar from "@/src/Components/NavigationBar";
 import RecipeList from "@/src/Components/RecipeList";
 

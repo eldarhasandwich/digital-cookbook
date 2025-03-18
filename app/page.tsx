@@ -2,9 +2,26 @@
 
 import PageWrapper from "@/src/Components/PageWrapper";
 import NavigationBar from "@/src/Components/NavigationBar";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import RecipeList from "@/src/Components/RecipeList";
 import RECIPES from "@/data/book.config";
+
+const styles = {
+    hint: {
+        marginTop: '1rem',
+        color: '#666',
+        fontSize: '0.9rem',
+        textAlign: 'center' as const,
+        fontFamily: 'Arial, Helvetica, sans-serif',
+    },
+    bigHint: {
+        marginTop: '1rem',
+        color: '#666',
+        fontSize: '1.5rem',
+        textAlign: 'center' as const,
+        fontFamily: 'Arial, Helvetica, sans-serif',
+    }
+}
 
 interface SearchBarProps {
     searchQuery: string;
@@ -13,6 +30,15 @@ interface SearchBarProps {
 
 // Search bar component with modern styling
 const SearchBar: React.FC<SearchBarProps> = ({ searchQuery, setSearchQuery }) => {
+    const [randomRecipes, setRandomRecipes] = useState<Array<{ name: string }>>([]);
+
+    useEffect(() => {
+        // Generate random recipes only on the client side
+        const recipe1 = RECIPES.recipes[Math.floor(Math.random() * RECIPES.recipes.length)];
+        const recipe2 = RECIPES.recipes[Math.floor(Math.random() * RECIPES.recipes.length)];
+        const recipe3 = RECIPES.recipes[Math.floor(Math.random() * RECIPES.recipes.length)];
+        setRandomRecipes([recipe1, recipe2, recipe3]);
+    }, []);
 
     const searchBarStyles = {
         container: {
@@ -61,26 +87,13 @@ const SearchBar: React.FC<SearchBarProps> = ({ searchQuery, setSearchQuery }) =>
             fontWeight: 'bold',
             transition: 'background-color 0.2s ease',
             fontFamily: 'Arial, Helvetica, sans-serif',
-        },
-        hint: {
-            marginTop: '1rem',
-            color: '#666',
-            fontSize: '0.9rem',
-            textAlign: 'center' as const,
-            fontFamily: 'Arial, Helvetica, sans-serif',
         }
     };
-
-    // const handleSearch = (e: React.FormEvent) => {
-    //     e.preventDefault();
-    //     // Handle search logic here
-    //     console.log('Searching for:', searchQuery);
-    // };
 
     return (
         <div style={searchBarStyles.container}>
             <form style={searchBarStyles.form}>
-                <h2 style={searchBarStyles.heading}>WIP Mahan Cookbook</h2>
+                <h2 style={searchBarStyles.heading}>Jennifer Mahan Cookbook</h2>
                 <div style={searchBarStyles.inputContainer}>
                     <input
                         style={searchBarStyles.input}
@@ -91,9 +104,9 @@ const SearchBar: React.FC<SearchBarProps> = ({ searchQuery, setSearchQuery }) =>
                     />
                 </div>
                 {
-                    searchQuery.length == 0 && (
-                        <p style={searchBarStyles.hint}>
-                            Try searching for xyz
+                    searchQuery.length == 0 && randomRecipes.length > 0 && (
+                        <p style={styles.hint}>
+                            Try searching for {randomRecipes[0].name}, {randomRecipes[1].name}, or {randomRecipes[2].name}
                         </p>
                     )
                 }
@@ -129,6 +142,16 @@ export default function HomePage() {
                 <SearchBar searchQuery={searchQuery} setSearchQuery={setSearchQuery} />
                 
                 <RecipeList recipes={searchQuery.length > 0 ? recipes : []} />
+
+                {
+                    recipes.length == 0 && (
+                        <p style={styles.bigHint}>
+                            No recipes found.
+                        </p>
+                    )   
+                }
+
+                <div style={{ height: '100px' }} />
 
         </PageWrapper>
     );
