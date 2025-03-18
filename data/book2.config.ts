@@ -1388,6 +1388,1617 @@ const RECIPES_BOOK2: RecipeBookT = {
                 "Stir in the shredded cheese and let melt for a minute.",
                 "Serve."
             ]
+        },
+        {
+            slug: "banana-walnut-coffee-cake",
+            name: "Banana Walnut Coffee Cake",
+            ingredients: [],
+            additionalIngredientGroups: [
+                {
+                    name: "Cake Batter",
+                    ingredients: [
+                        {
+                            name: "All-Purpose Flour",
+                            quantity: 2,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Baking Powder",
+                            quantity: 2,
+                            quantityUnit: Unit.TEASPOON
+                        },
+                        {
+                            name: "Salt",
+                            quantity: 0.75,
+                            quantityUnit: Unit.TEASPOON
+                        },
+                        {
+                            name: "Granulated Sugar",
+                            quantity: 0.5,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Milk",
+                            quantity: 0.75,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Eggs",
+                            quantity: 2
+                        },
+                        {
+                            name: "Vanilla Extract",
+                            quantity: 1,
+                            quantityUnit: Unit.TEASPOON
+                        },
+                        {
+                            name: "Ripe Bananas",
+                            quantity: 3
+                        },
+                        {
+                            name: "Sour Cream",
+                            quantity: 0.25,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Butter",
+                            quantity: 0.75,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "cold"
+                        }
+                    ]
+                },
+                {
+                    name: "Crumb Filling/Topping",
+                    ingredients: [
+                        {
+                            name: "All-Purpose Flour",
+                            quantity: 1,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Cinnamon",
+                            quantity: 2,
+                            quantityUnit: Unit.TEASPOON
+                        },
+                        {
+                            name: "Walnuts",
+                            quantity: 1.5,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "chopped"
+                        },
+                        {
+                            name: "Brown Sugar",
+                            quantity: 0.25,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Butter",
+                            quantity: 0.75,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "cold, cut into small cubes"
+                        }
+                    ]
+                }
+            ],
+            instructions: [
+                "Preheat oven to 350°.",
+                "Lightly butter, then dust with flour, a 9x13 inch baking dish (or spray with cooking spray).",
+                "For the cake batter: In a medium bowl, whisk together flour, baking powder, and salt. Set aside.",
+                "In a large bowl, beat butter until smooth. Add sugar, and continue to blend. Add the very ripe bananas and blend until well combined.",
+                "While mixing add eggs, then vanilla, milk, and sour cream.",
+                "Add flour mixture and stir until just combined.",
+                "Pour 1/2 of the cake batter into the prepared pan, and then add a layer of the crumb topping, using a bit less than half of the crumb topping.",
+                "Pour the additional cake batter on top, using a spatula to spread as needed.",
+                "Sprinkle the remaining crumb topping over the cake batter.",
+                "Bake in a preheated oven for 50-55 minutes.",
+                "For the crumb filling/topping: Cut cold butter into small cubes and set aside.",
+                "In a medium-sized bowl add brown sugar, flour, and cinnamon. Then add chopped butter and use a pastry blender or fork to combine all ingredients until coarse crumbles form.",
+                "Add chopped walnuts and stir to combine.",
+                "Set aside the crumb mixture while you prepare the cake batter."
+            ]
+        },
+        {
+            slug: "blueberry-oat-pancakes",
+            name: "Blueberry Oat Pancakes",
+            ingredients: [],
+            additionalIngredientGroups: [
+                {
+                    name: "Dry Ingredients",
+                    ingredients: [
+                        {
+                            name: "Whole Wheat Flour",
+                            quantity: 0.5,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "All-Purpose Flour",
+                            quantity: 0.5,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "plus extra for dusting blueberries"
+                        },
+                        {
+                            name: "Brown Sugar",
+                            quantity: 2,
+                            quantityUnit: Unit.TABLESPOON
+                        },
+                        {
+                            name: "Baking Powder",
+                            quantity: 2,
+                            quantityUnit: Unit.TABLESPOON
+                        },
+                        {
+                            name: "Salt",
+                            quantity: 0.75,
+                            quantityUnit: Unit.TEASPOON
+                        },
+                        {
+                            name: "Quick Cooking Oats",
+                            quantity: 1.5,
+                            quantityUnit: Unit.CUP
+                        }
+                    ]
+                },
+                {
+                    name: "Wet Ingredients",
+                    ingredients: [
+                        {
+                            name: "Milk",
+                            quantity: 2,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "can substitute with soy or almond milk"
+                        },
+                        {
+                            name: "Eggs",
+                            quantity: 3,
+                            extraInstructions: "beaten"
+                        },
+                        {
+                            name: "Olive Oil",
+                            quantity: 0.25,
+                            quantityUnit: Unit.CUP
+                        }
+                    ]
+                },
+                {
+                    name: "Blueberries and Toppings",
+                    ingredients: [
+                        {
+                            name: "Fresh Blueberries",
+                            quantity: 1,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "plus extra for garnish"
+                        },
+                        {
+                            name: "Maple Syrup",
+                            extraInstructions: "for serving"
+                        }
+                    ]
+                }
+            ],
+            instructions: [
+                "Lightly oil a griddle, and preheat over medium heat.",
+                "Mix the whole wheat flour, all-purpose flour, brown sugar, baking powder, and salt in a large mixing bowl.",
+                "In a separate bowl, mix oats and milk. Whisk in eggs and olive oil. Pour into the flour mixture and mix until batter is smooth. Fold blueberries into the batter.",
+                "Working in batches, pour about ¼ cup batter at a time onto the prepared griddle. Cook 1-2 minutes, until bubbly. Flip and continue cooking until lightly browned. Transfer to serving tray and keep warm.",
+                "Serve garnished with maple syrup and fresh blueberries."
+            ]
+        },
+        {
+            slug: "mini-quiches-with-hash-brown-crust",
+            name: "Mini Quiches with Hash Brown Crust",
+            ingredients: [
+                {
+                    name: "Frozen Hash Browns",
+                    quantity: 16,
+                    quantityUnit: Unit.OZ,
+                    extraInstructions: "thawed"
+                },
+                {
+                    name: "Olive Oil",
+                    extraInstructions: "for coating"
+                },
+                {
+                    name: "Eggs",
+                    quantity: 8
+                },
+                {
+                    name: "Salt and Pepper",
+                    extraInstructions: "pinch"
+                }
+            ],
+            additionalIngredientGroups: [
+                {
+                    name: "Toppings (Choose 1-2 cups total)",
+                    ingredients: [
+                        {
+                            name: "Sautéed Peppers and Onions",
+                            extraInstructions: "optional"
+                        },
+                        {
+                            name: "Sautéed Greens",
+                            extraInstructions: "spinach, kale, or chard"
+                        },
+                        {
+                            name: "Cooked Bacon or Sausage",
+                            extraInstructions: "crumbled"
+                        },
+                        {
+                            name: "Fresh Herbs",
+                            extraInstructions: "cilantro, basil, parsley, or chives"
+                        },
+                        {
+                            name: "Cooked Ham",
+                            extraInstructions: "optional"
+                        },
+                        {
+                            name: "Fresh or Sun-Dried Tomatoes",
+                            extraInstructions: "optional"
+                        }
+                    ]
+                }
+            ],
+            instructions: [
+                "Preheat oven to 425°.",
+                "In a large bowl, combine hash browns (thawed) with olive oil.",
+                "Divide hash browns between 12 muffin cups. Press down the center to create a well and press sides firmly against the rim of the muffin cup.",
+                "Bake hash brown \"cups\" at 425° for 20-30 minutes or until they start to brown.",
+                "Remove from oven and add desired toppings to the center of each hash brown cup.",
+                "Whisk eggs into a small bowl with a pinch of salt & pepper.",
+                "Working gently, pour egg mixture over the topping just to fill.",
+                "Bake again for 20-25 minutes or until centres are just set.",
+                "Allow to cool slightly before transferring to a cooling rack."
+            ]
+        },
+        {
+            slug: "whole-wheat-banana-walnut-pancakes-with-apple-compote",
+            name: "Whole Wheat Banana Walnut Pancakes with Apple Walnut Compote",
+            ingredients: [],
+            additionalIngredientGroups: [
+                {
+                    name: "Pancakes",
+                    ingredients: [
+                        {
+                            name: "Whole Wheat Flour",
+                            quantity: 1,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Baking Powder",
+                            quantity: 1,
+                            quantityUnit: Unit.TEASPOON
+                        },
+                        {
+                            name: "Eggs",
+                            quantity: 2
+                        },
+                        {
+                            name: "Milk",
+                            quantity: 0.5,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Ripe Bananas",
+                            quantity: 2
+                        },
+                        {
+                            name: "Walnut Pieces",
+                            quantity: 1,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "roughly chopped"
+                        },
+                        {
+                            name: "Butter or Cooking Spray",
+                            quantity: 1,
+                            quantityUnit: Unit.TABLESPOON,
+                            extraInstructions: "for pan"
+                        }
+                    ]
+                },
+                {
+                    name: "Apple Walnut Compote",
+                    ingredients: [
+                        {
+                            name: "Granny Smith Apples",
+                            quantity: 2,
+                            extraInstructions: "peeled and diced"
+                        },
+                        {
+                            name: "Water",
+                            quantity: 2,
+                            quantityUnit: Unit.TABLESPOON
+                        },
+                        {
+                            name: "Brown Sugar",
+                            quantity: 2,
+                            quantityUnit: Unit.TABLESPOON
+                        },
+                        {
+                            name: "Cinnamon",
+                            quantity: 0.25,
+                            quantityUnit: Unit.TEASPOON
+                        },
+                        {
+                            name: "Raisins",
+                            quantity: 0.25,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Walnuts",
+                            quantity: 1,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "toasted"
+                        },
+                        {
+                            name: "Maple Syrup",
+                            extraInstructions: "for serving"
+                        }
+                    ]
+                }
+            ],
+            instructions: [
+                "For compote: Heat the oven to 350°.",
+                "Toast 1 cup of Walnuts for 8-10 minutes, tossing the Walnuts once, to redistribute. You will know the walnuts are toasted when they are lightly browned and fragrant. Set aside.",
+                "In a small saucepan add the chopped apples, water, brown sugar, and cinnamon. Heat on medium for 5 minutes, stirring occasionally.",
+                "Remove from heat and add the raisins and the roasted walnuts. Stir to combine. Set aside.",
+                "For pancakes: Combine the bananas, milk, eggs, flour, and baking powder. Beat until smooth.",
+                "Add the chopped nuts.",
+                "Heat a large skillet or griddle on medium heat. Coat the skillet with a small amount of butter or cooking spray.",
+                "Spoon 1/4 cup batter at a time onto the griddle. Cook for 1 minute or until you see bubbles around the edges of the pancakes.",
+                "Flip and continue to cook for an additional minute.",
+                "Remove and serve while hot.",
+                "Top with maple syrup and apple compote."
+            ],
+            notes: "Makes 12 pancakes."
+        },
+        {
+            slug: "easy-chicken-and-rice-casserole",
+            name: "Easy Chicken and Rice Casserole",
+            ingredients: [
+                {
+                    name: "White Rice",
+                    quantity: 2,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Onion",
+                    quantity: 1,
+                    extraInstructions: "chopped"
+                },
+                {
+                    name: "Chicken Broth",
+                    quantity: 2,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Cream of Mushroom Soup",
+                    quantity: 2,
+                    extraInstructions: "cans"
+                },
+                {
+                    name: "Salt and Pepper",
+                    extraInstructions: "to taste"
+                },
+                {
+                    name: "Bone-in, Skin-on Chicken Thighs",
+                    quantity: 3,
+                    extraInstructions: "large"
+                },
+                {
+                    name: "Butter",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "melted"
+                },
+                {
+                    name: "Dried Thyme",
+                    quantity: 2,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Garlic",
+                    quantity: 1,
+                    extraInstructions: "clove, finely minced"
+                },
+                {
+                    name: "Fresh Parsley",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "chopped, for serving"
+                }
+            ],
+            instructions: [
+                "Preheat oven to 350°. Grease 9×13 baking pan.",
+                "Place rice and onion into the baking pan. Pour in the broth and soup and stir to combine. Season with salt and pepper.",
+                "Place chicken thighs in rice mixture. Brush chicken with butter and sprinkle with thyme and garlic. Season with salt and pepper.",
+                "Cover dish with foil and bake for 1 hour. Uncover and bake for 30 minutes more, until the rice is cooked and the chicken is golden.",
+                "Top with parsley and serve."
+            ]
+        },
+        {
+            slug: "chicken-rice-casserole",
+            name: "Chicken Rice Casserole",
+            ingredients: [
+                {
+                    name: "Butter",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Onion",
+                    quantity: 0.5,
+                    extraInstructions: "medium, diced"
+                },
+                {
+                    name: "Celery",
+                    quantity: 4,
+                    extraInstructions: "stalks, sliced"
+                },
+                {
+                    name: "Garlic",
+                    quantity: 1,
+                    extraInstructions: "clove, minced"
+                },
+                {
+                    name: "Cooked Chicken Breasts",
+                    quantity: 3,
+                    extraInstructions: "shredded"
+                },
+                {
+                    name: "Homemade Cream of Chicken Soup",
+                    quantity: 1,
+                    extraInstructions: "recipe"
+                },
+                {
+                    name: "Chicken Stock",
+                    quantity: 3,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Long Grain White Rice",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "uncooked"
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Black Pepper",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                }
+            ],
+            instructions: [
+                "Preheat oven to 350°. Spray a 9X13 baking dish.",
+                "Melt butter in skillet. Add onion, celery and garlic and sauté until onion is tender, about 3-5 minutes.",
+                "Remove from heat and add chicken, cream of chicken soup, chicken stock, rice, salt and pepper in a large bowl.",
+                "Pour mixture into a prepared pan and cover with foil.",
+                "Bake for 30-45 minutes or until the rice is tender. Remove foil and bake an additional 10 minutes, until lightly browned."
+            ]
+        },
+        {
+            slug: "creamy-chicken-and-rice-casserole",
+            name: "Creamy Chicken and Rice Casserole",
+            ingredients: [
+                {
+                    name: "Cooked Chicken Breasts",
+                    quantity: 3,
+                    extraInstructions: "cooked and shredded or cubed"
+                },
+                {
+                    name: "Cream of Chicken Soup",
+                    quantity: 2,
+                    extraInstructions: "cans"
+                },
+                {
+                    name: "Minute Rice",
+                    quantity: 2,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "or quick cooking"
+                },
+                {
+                    name: "Chicken Broth",
+                    quantity: 2,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Sour Cream",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Ritz Crackers",
+                    quantity: 2,
+                    extraInstructions: "sleeves"
+                },
+                {
+                    name: "Butter",
+                    quantity: 0.5,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "melted (1 stick)"
+                }
+            ],
+            instructions: [
+                "Preheat the oven to 350°. Spray a 9 x 13 baking dish.",
+                "In a large bowl, mix cream of chicken, broth and sour cream together until everything is incorporated, then spread mixture into a 9 x 13 baking dish. Vegetables can be added to the rice & chicken mix.",
+                "In a medium bowl, melt the butter, then pour in the crushed Ritz crackers.",
+                "Spread the cracker mixture over the top of the casserole, then place on middle rack of the oven and bake for 40 minutes."
+            ]
+        },
+        {
+            slug: "cheesy-herb-quick-bread",
+            name: "Cheesy Herb Quick Bread",
+            ingredients: [
+                {
+                    name: "All-Purpose Flour",
+                    quantity: 2.25,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Baking Powder",
+                    quantity: 2,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Baking Soda",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Kosher Salt",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Buttermilk",
+                    quantity: 1.25,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Eggs",
+                    quantity: 2,
+                    extraInstructions: "large"
+                },
+                {
+                    name: "Garlic",
+                    quantity: 2,
+                    quantityUnit: Unit.TEASPOON,
+                    extraInstructions: "minced"
+                },
+                {
+                    name: "Parsley",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "chopped"
+                },
+                {
+                    name: "Thyme",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "chopped"
+                },
+                {
+                    name: "Basil",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "chopped"
+                },
+                {
+                    name: "Olive Oil",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Sharp Cheddar Cheese",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "shredded"
+                }
+            ],
+            instructions: [
+                "Preheat oven to 350°. Coat an 8\" x 4\" with cooking spray. Set aside.",
+                "Mix chopped herbs and olive oil in a small bowl and set aside.",
+                "In a large bowl, mix flour, baking powder, baking soda, and salt until well combined.",
+                "In a separate bowl, whisk buttermilk, eggs, and garlic. Make well in the middle of the dry ingredients and pour the wet ingredients and shredded cheese into the well. Mix until well combined.",
+                "Pour batter into the prepared pan and bake for 35-45 minutes until tester comes out clean."
+            ]
+        },
+        {
+            slug: "cocktail-meatballs",
+            name: "Cocktail Meatballs",
+            ingredients: [
+                {
+                    name: "Lean Ground Beef",
+                    quantity: 1,
+                    quantityUnit: Unit.LB
+                },
+                {
+                    name: "Egg",
+                    quantity: 1
+                },
+                {
+                    name: "Water",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Bread Crumbs",
+                    quantity: 0.5,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Minced Onions",
+                    quantity: 3,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Cranberry Sauce",
+                    quantity: 8,
+                    quantityUnit: Unit.OZ,
+                    extraInstructions: "jellied (or ¾ cup chili sauce or grape jelly or 1 TBS brown sugar orange marmalade or 1½ tsp lemon juice peach preserves)"
+                }
+            ],
+            instructions: [
+                "Preheat oven to 350°.",
+                "In a large bowl, mix together the ground beef, egg, water, bread crumbs, and minced onion. Roll into small meatballs.",
+                "Bake in preheated oven for 20-25 minutes, turning once.",
+                "In a slow cooker, or large oven pan over low heat, blend the cranberry sauce, chili sauce, brown sugar, and lemon juice. Add meatballs, and simmer for 1 hour before serving."
+            ]
+        },
+        {
+            slug: "rustic-caramelized-onion-minestrone",
+            name: "Rustic Caramelized Onion Minestrone",
+            ingredients: [
+                {
+                    name: "Olive Oil",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Onion",
+                    quantity: 1,
+                    extraInstructions: "large, halved and sliced"
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Garlic",
+                    quantity: 4,
+                    extraInstructions: "cloves, minced"
+                },
+                {
+                    name: "Vegetable Stock",
+                    quantity: 8,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Fire Roasted Tomatoes",
+                    quantity: 1,
+                    extraInstructions: "15 oz can, including liquid"
+                },
+                {
+                    name: "Cannellini Beans",
+                    quantity: 1,
+                    extraInstructions: "15.5 oz can, drained and rinsed"
+                },
+                {
+                    name: "Russet Potatoes",
+                    quantity: 2,
+                    extraInstructions: "large, peeled and cut into 1\" cubes"
+                },
+                {
+                    name: "Carrots",
+                    quantity: 2,
+                    extraInstructions: "peeled and chopped into 1\" pieces"
+                },
+                {
+                    name: "Celery",
+                    quantity: 2,
+                    extraInstructions: "stalks, diced"
+                },
+                {
+                    name: "Italian Seasoning",
+                    quantity: 1.5,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "dried"
+                },
+                {
+                    name: "Black Pepper",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Green Beans",
+                    quantity: 2,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "fresh, trimmed and cut into 1\" pieces"
+                },
+                {
+                    name: "Green Peas",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "fresh or frozen"
+                }
+            ],
+            instructions: [
+                "Heat oil over medium-high heat in a soup pot. Add onions and pinch of salt. Cook, stirring frequently for 5 minutes.",
+                "Reduce heat to medium-low and continue cooking the onions, stirring occasionally, until they are very soft and light brown in color, 20-30 minutes.",
+                "Add garlic and stir until fragrant.",
+                "Pour vegetable stock into the pot slowly, stir to scrape up and incorporate brown bits from the bottom of the pan.",
+                "Stir in tomatoes, Cannellini beans, potatoes, carrot, celery, and seasonings. Bring mixture to boil, then reduce heat to low.",
+                "Simmer uncovered for 25–30 minutes, stirring occasionally.",
+                "Add green beans and peas. Stir well, and continue cooking for another 15 minutes.",
+                "Ladle into bowls, and serve with an optional side of crusty bread."
+            ]
+        },
+        {
+            slug: "banana-oat-energy-bars",
+            name: "Banana Oat Energy Bars",
+            ingredients: [
+                {
+                    name: "Rolled Oats",
+                    quantity: 2,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Cinnamon",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Bananas",
+                    quantity: 2,
+                    extraInstructions: "mashed"
+                },
+                {
+                    name: "Carrots",
+                    quantity: 2,
+                    extraInstructions: "grated"
+                },
+                {
+                    name: "Unsweetened Applesauce",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Nuts",
+                    quantity: 0.5,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "chopped (your choice)"
+                },
+                {
+                    name: "Apple",
+                    quantity: 1,
+                    extraInstructions: "grated"
+                }
+            ],
+            instructions: [
+                "Preheat oven to 350°. Grease a 9\"x13\" baking dish.",
+                "Mix oats, bananas, carrot, apple, applesauce, and peanuts together in a bowl, spread into the prepared baking dish.",
+                "Bake in a preheated oven until golden brown, about 20 minutes."
+            ]
+        },
+        {
+            slug: "pineapple-dream-dessert",
+            name: "Pineapple Dream Dessert",
+            ingredients: [],
+            additionalIngredientGroups: [
+                {
+                    name: "Crust",
+                    ingredients: [
+                        {
+                            name: "Graham Cracker Crumbs",
+                            quantity: 2.5,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Butter",
+                            quantity: 0.5,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "melted"
+                        }
+                    ]
+                },
+                {
+                    name: "Filling",
+                    ingredients: [
+                        {
+                            name: "Cream Cheese",
+                            quantity: 4,
+                            quantityUnit: Unit.OZ,
+                            extraInstructions: "softened"
+                        },
+                        {
+                            name: "Butter",
+                            quantity: 0.5,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "room temperature"
+                        },
+                        {
+                            name: "Powdered Sugar",
+                            quantity: 2,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Cool Whip",
+                            quantity: 8,
+                            quantityUnit: Unit.OZ
+                        },
+                        {
+                            name: "Crushed Pineapple",
+                            quantity: 20,
+                            quantityUnit: Unit.OZ,
+                            extraInstructions: "canned, drained"
+                        }
+                    ]
+                }
+            ],
+            instructions: [
+                "Preheat oven to 300°. Crush graham crackers.",
+                "Drain pineapple.",
+                "Melt ½ cup (1 stick) butter.",
+                "Add 2½ cups crushed graham crumbs to melted butter and stir until combined.",
+                "Measure out 2 cups of the crumb mixture and press it firmly into the bottom of an 8\"x8\" or 9\"x9\" square baking dish.",
+                "Bake crumb mixture for about 8-10 minutes and then allow to cool completely.",
+                "Beat cream cheese and butter together until creamy.",
+                "Add powdered sugar to cream cheese and butter and mix until incorporated and smooth.",
+                "Add a big heaping tablespoon of drained pineapple to the creamed mixture and stir.",
+                "Spread cream mixture over the graham cracker crust.",
+                "Combine the cool whip with the crushed pineapple. Stir well. Spread the cool whip mixture over the cream cheese mixture.",
+                "Sprinkle the remaining graham crackers over the top.",
+                "Cover and refrigerate for at least 4 hours."
+            ],
+            notes: "Can be made the day before."
+        },
+        {
+            slug: "peach-cobbler",
+            name: "Peach Cobbler",
+            ingredients: [
+                {
+                    name: "Crushed Peaches",
+                    quantity: 3,
+                    extraInstructions: "16 oz cans"
+                },
+                {
+                    name: "Butter",
+                    quantity: 0.5,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "melted"
+                },
+                {
+                    name: "All-Purpose Flour",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Sugar",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Baking Powder",
+                    quantity: 1.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Milk",
+                    quantity: 0.5,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Cinnamon",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON,
+                    extraInstructions: "optional"
+                }
+            ],
+            instructions: [
+                "Preheat oven to 375°. Melt butter in a 9x13 baking dish",
+                "Whisk together the flour, sugar, baking powder, salt, and milk. Pour the batter into the melted butter in the baking dish. Do not stir",
+                "Spread the peaches, and their liquid, evenly around the pan. Do not stir. Sprinkle the peaches with the cinnamon, if using.",
+                "Bake until the crust turns golden brown, about 30 or 40 minutes. Allow to cool for about 10 minutes before serving"
+            ],
+            notes: "If using fresh peaches, use 4 cups fresh peaches sliced, 1 cup sugar, 2 TBS lemon juice, 1 tsp cinnamon, 1 tsp baking powder. Cook on a medium saucepan until peaches are tender. Cool and pour over batter."
+        },
+        {
+            slug: "classic-vanilla-buttercream",
+            name: "Classic Vanilla Buttercream",
+            ingredients: [
+                {
+                    name: "Butter",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "2 sticks, softened"
+                },
+                {
+                    name: "Vanilla Extract",
+                    quantity: 2,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Almond Extract",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Confectioner's Sugar",
+                    quantity: 32,
+                    quantityUnit: Unit.OZ,
+                    extraInstructions: "sifted (8 cups)"
+                },
+                {
+                    name: "Milk",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Salt",
+                    extraInstructions: "pinch"
+                }
+            ],
+            instructions: [
+                "Beat butter until light and fluffy",
+                "Add vanilla and almond extract",
+                "Gradually add in the confectioner's sugar, milk, and salt; frequently scrape down the sides and bottom of bowl",
+                "Once incorporated, whip frosting for at least 3 minutes on medium high to high",
+                "If frosting is too thick to spread, gradually beat in additional milk",
+                "Can be stored in refrigerator up to 2 weeks. Rewhip before using."
+            ]
+        },
+        {
+            slug: "no-bake-banana-split-dessert",
+            name: "No Bake Banana Split Dessert",
+            ingredients: [],
+            additionalIngredientGroups: [
+                {
+                    name: "Crust",
+                    ingredients: [
+                        {
+                            name: "Graham Crackers",
+                            quantity: 2,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "crumbled"
+                        },
+                        {
+                            name: "Butter",
+                            quantity: 0.5,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "melted"
+                        }
+                    ]
+                },
+                {
+                    name: "Cream Cheese Layer",
+                    ingredients: [
+                        {
+                            name: "Cream Cheese",
+                            quantity: 12,
+                            quantityUnit: Unit.OZ,
+                            extraInstructions: "room temperature"
+                        },
+                        {
+                            name: "Sugar",
+                            quantity: 0.25,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Cool Whip",
+                            quantity: 8,
+                            quantityUnit: Unit.OZ
+                        }
+                    ]
+                },
+                {
+                    name: "Fruit Topping",
+                    ingredients: [
+                        {
+                            name: "Bananas",
+                            quantity: 3,
+                            extraInstructions: "sliced"
+                        },
+                        {
+                            name: "Crushed Pineapple",
+                            quantity: 20,
+                            quantityUnit: Unit.OZ,
+                            extraInstructions: "canned, well drained"
+                        },
+                        {
+                            name: "Strawberries",
+                            quantity: 16,
+                            quantityUnit: Unit.OZ,
+                            extraInstructions: "hulled & sliced"
+                        },
+                        {
+                            name: "Cool Whip",
+                            quantity: 8,
+                            quantityUnit: Unit.OZ
+                        },
+                        {
+                            name: "Walnuts",
+                            quantity: 0.5,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "chopped"
+                        },
+                        {
+                            name: "Chocolate Syrup",
+                            extraInstructions: "for drizzling"
+                        },
+                        {
+                            name: "Maraschino Cherries",
+                            extraInstructions: "for topping"
+                        }
+                    ]
+                }
+            ],
+            instructions: [
+                "Grease a 9x13\" baking dish, set aside.",
+                "Mix the graham cracker crumbs with the melted butter, stirring until all the crumbs are evenly moistened. Dump crumbs into the prepared baking dish. Refrigerate while preparing the next layer.",
+                "Mix the cream cheese and sugar on medium speed until light & fluffy, about 3 minutes. Using a rubber spatula, fold in the cool whip until thoroughly combined. Spread the cream cheese mixture on top of the graham cracker crust.",
+                "Arrange the banana slices in a single layer on top of the cream cheese filling, top with an even layer of the crushed pineapple, and then an even layer of the sliced strawberries.",
+                "Cover with the Cool Whip, smoothing the top. Sprinkle with the chopped walnuts, then drizzle with chocolate syrup and top with maraschino cherries. Refrigerate for at least 4 hours, or overnight. Store in refrigerator for up to 4 days."
+            ]
+        },
+        {
+            slug: "pineapple-lemonade",
+            name: "Pineapple Lemonade",
+            ingredients: [
+                {
+                    name: "Countrytime Lemonade Mix",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Cold Water",
+                    quantity: 3,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Pineapple Juice",
+                    quantity: 46,
+                    quantityUnit: Unit.OZ,
+                    extraInstructions: "chilled"
+                },
+                {
+                    name: "Sprite",
+                    quantity: 2,
+                    extraInstructions: "cans"
+                }
+            ]
+        },
+        {
+            slug: "garlic-parmesan-stuffed-mushrooms",
+            name: "Garlic Parmesan Stuffed Mushrooms",
+            ingredients: [
+                {
+                    name: "Mushrooms",
+                    quantity: 15,
+                    extraInstructions: "whole, stems removed and chopped"
+                },
+                {
+                    name: "Canola Oil",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Garlic",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "chopped"
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Black Pepper",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Cream Cheese",
+                    quantity: 8,
+                    quantityUnit: Unit.OZ,
+                    extraInstructions: "softened"
+                },
+                {
+                    name: "Italian Breadcrumbs",
+                    quantity: 0.25,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Parmesan Cheese",
+                    quantity: 0.5,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "shredded, divided"
+                },
+                {
+                    name: "Parsley",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "chopped"
+                }
+            ],
+            instructions: [
+                "Preheat oven to 350°.",
+                "Cut the stems off each of the mushrooms and finely chop them up, setting the mushroom caps aside for later.",
+                "Heat the oil in a pan over high heat. Cook the chopped stems with the garlic, salt, and pepper for about 6-8 minutes, constantly stirring. Remove from heat.",
+                "Combine the cooled stems, cream cheese, breadcrumbs, with parmesan, parsley, salt and pepper, mixing until evenly combined. The mixture should be extremely thick.",
+                "Space out the mushroom caps evenly on a baking sheet, spray as desired. Spoon a generous amount of the cream cheese mixture on top of mushrooms with a sprinkle of parmesan. Bake for 20 minutes.",
+                "Garnish with a sprinkle of parsley, then serve."
+            ]
+        },
+        {
+            slug: "creamy-chicken-and-rice-soup",
+            name: "Creamy Chicken and Rice Soup",
+            ingredients: [
+                {
+                    name: "Rotisserie Chicken",
+                    quantity: 1,
+                    quantityUnit: Unit.LB,
+                    extraInstructions: "meat removed from bone, diced (about 3 cups)"
+                },
+                {
+                    name: "Unsalted Butter",
+                    quantity: 5,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Carrots",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "diced"
+                },
+                {
+                    name: "Onions",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "diced"
+                },
+                {
+                    name: "Celery",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "diced"
+                },
+                {
+                    name: "Fresh Parsley",
+                    quantity: 0.25,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "chopped"
+                },
+                {
+                    name: "Black Pepper",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Dried Thyme",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Garlic Powder",
+                    quantity: 0.5,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "All-Purpose Flour",
+                    quantity: 0.25,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Low Sodium Chicken Stock",
+                    quantity: 1,
+                    quantityUnit: Unit.QUART
+                },
+                {
+                    name: "Frozen Peas",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Heavy Cream",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Salt",
+                    extraInstructions: "to taste"
+                },
+                {
+                    name: "Success Jasmine Rice",
+                    quantity: 2,
+                    extraInstructions: "bags"
+                }
+            ],
+            instructions: [
+                "Remove meat from rotisserie chicken bones and dice into approximately 3 cups of chicken.",
+                "In medium pot over medium-high heat melt butter and add carrots, onion, celery, parsley, pepper, thyme, and garlic powder. Stir and cook for 5 minutes. Lower heat to medium low and add flour, stir and cook for 3 more minutes.",
+                "Add stock and stir with wooden spoon until combined. Add cooked chicken and stir. Reduce temperature to low.",
+                "Bring a medium pan of water to a boil and place 2 bags of Success rice into the water and follow directions on box.",
+                "When the rice is almost done, heat soup back up and add peas and cream and stir. Taste and add salt if needed. Depending on the stock you use, salt may not be needed.",
+                "Once the rice is done, follow box directions to remove and drain and add rice to soup.",
+                "Stir and serve."
+            ]
+        },
+        {
+            slug: "3-ingredient-orange-chicken",
+            name: "3 Ingredient Orange Chicken",
+            ingredients: [],
+            additionalIngredientGroups: [
+                {
+                    name: "Sauce",
+                    ingredients: [
+                        {
+                            name: "BBQ Sauce",
+                            quantity: 1,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "Sweet Baby Rays"
+                        },
+                        {
+                            name: "Sweet Orange Marmalade",
+                            quantity: 1,
+                            quantityUnit: Unit.CUP
+                        },
+                        {
+                            name: "Soy Sauce",
+                            quantity: 2,
+                            quantityUnit: Unit.TABLESPOON
+                        }
+                    ]
+                },
+                {
+                    name: "Chicken",
+                    ingredients: [
+                        {
+                            name: "Chicken Breasts",
+                            quantity: 4,
+                            extraInstructions: "or 3 large"
+                        },
+                        {
+                            name: "All-Purpose Flour",
+                            quantity: 1,
+                            quantityUnit: Unit.CUP,
+                            extraInstructions: "or cornstarch, or combination"
+                        },
+                        {
+                            name: "Eggs",
+                            quantity: 2,
+                            extraInstructions: "beaten"
+                        },
+                        {
+                            name: "Oil",
+                            extraInstructions: "for frying"
+                        }
+                    ]
+                }
+            ],
+            instructions: [
+                "In a sauce pan, add BBQ sauce, marmalade, and soy sauce. Turn the heat on low and let it simmer for 20 minutes, stirring a few times.",
+                "Meanwhile cut your chicken into cubes. In one bowl beat 2 eggs, while the other bowl should have the dry mix ingredients.",
+                "Dip pieces of chicken in the egg and then cover in flour/cornstarch. Set on an extra plate.",
+                "Add a thin layer of oil to a frying pan and turn your stove on medium/high heat. Once it sizzles, add the chicken to the pan. Let it cook 3-5 minutes on each side - until its brown and cooked on the inside.",
+                "Set the cooked chicken on a paper towel to drain",
+                "Add chicken to sauce and toss",
+                "Serve with white rice."
+            ]
+        },
+        {
+            slug: "broccoli-ham-and-cheese-quiche",
+            name: "Broccoli, Ham, and Cheese Quiche",
+            ingredients: [
+                {
+                    name: "Frozen Hash Browns",
+                    quantity: 16,
+                    quantityUnit: Unit.OZ,
+                    extraInstructions: "thawed"
+                },
+                {
+                    name: "Eggs",
+                    quantity: 8,
+                    extraInstructions: "large, divided"
+                },
+                {
+                    name: "All-Purpose Flour",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Canola or Olive Oil",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Salt",
+                    quantity: 0.25,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Broccoli Florets",
+                    quantity: 2,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "finely chopped"
+                },
+                {
+                    name: "Shredded Cheese",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Ham",
+                    quantity: 0.75,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "finely diced"
+                },
+                {
+                    name: "Sour Cream",
+                    quantity: 0.75,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Fresh Chives",
+                    quantity: 0.25,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "minced"
+                },
+                {
+                    name: "Black Pepper",
+                    quantity: 0.125,
+                    quantityUnit: Unit.TEASPOON
+                }
+            ],
+            instructions: [
+                "Preheat oven 375°. Generously coat a 9\" springform pan with cooking spray. Line a rimmed baking sheet with foil.",
+                "Squeeze any excess moisture from thawed hash browns. Toss the hash browns with ¼ cup eggs, flour, oil, and salt in a medium bowl. Pat the mixture into the bottom and 2 inches up the sides of the prepared springform pan. Bake until the potatoes are over the filling.",
+                "Bake the quiche until the center is just set, 50 minutes to an hour. Let cool for 15 minutes. Run a knife around the edges to loosen the sides, remove the pan sides and cut the quiche into wedges."
+            ]
+        },
+        {
+            slug: "parmesan-garlic-herb-quick-bread",
+            name: "Parmesan Garlic Herb Quick Bread",
+            ingredients: [
+                {
+                    name: "All-Purpose Flour",
+                    quantity: 2,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Sugar",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Baking Powder",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Salt",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Parmesan Cheese",
+                    quantity: 0.75,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "fresh grated"
+                },
+                {
+                    name: "Buttermilk",
+                    quantity: 1,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Egg",
+                    quantity: 1,
+                    extraInstructions: "large"
+                },
+                {
+                    name: "Olive Oil",
+                    quantity: 0.25,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Garlic",
+                    quantity: 3,
+                    extraInstructions: "cloves, minced (3 tsp)"
+                },
+                {
+                    name: "Dried Rosemary",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Dried Oregano",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                }
+            ],
+            instructions: [
+                "Preheat oven 350°. Spray a 9X5 loaf pan",
+                "Whisk together the flour, sugar, baking powder, and salt in a medium mixing bowl. Gently mix in the parmesan cheese.",
+                "In a separate bowl whisk together the oil, egg and buttermilk.",
+                "Pour the liquid ingredients over the dry ingredients. Gently stir and fold the ingredients until all the flour has been incorporated and a wet batter is formed. Gently fold in the herbs and garlic. Be careful not to overmix.",
+                "Pour the batter into the prepared pan, spreading to the edges.",
+                "Bake in the preheated oven for about 45-50 minutes. When finished, the loaf should be browned and golden, and a toothpick inserted into the center should come out clean.",
+                "Cool in the pan for 15 minutes before removing, slicing, and serving.",
+                "Wrap cooled loaves tightly in plastic wrap and store at room temperature for up to a week. For freezer storage, wrap in plastic and aluminum foil and freeze for up to 3 months."
+            ]
+        },
+        {
+            slug: "boneless-pork-loin-roast",
+            name: "Boneless Pork Loin Roast",
+            ingredients: [
+                {
+                    name: "Boneless Pork Loin",
+                    quantity: 4,
+                    quantityUnit: Unit.LB,
+                    extraInstructions: "4-5 lb"
+                },
+                {
+                    name: "Garlic Powder",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Onion Powder",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Parsley",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Rosemary",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Seasoning Salt",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Olive Oil",
+                    quantity: 1,
+                    quantityUnit: Unit.TABLESPOON
+                },
+                {
+                    name: "Black Pepper",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON
+                },
+                {
+                    name: "Fresh Garlic",
+                    quantity: 10,
+                    extraInstructions: "cloves, chopped"
+                },
+                {
+                    name: "Yukon Gold Potatoes",
+                    quantity: 5,
+                    extraInstructions: "5-6, quartered"
+                },
+                {
+                    name: "Baby Carrots",
+                    quantity: 8,
+                    quantityUnit: Unit.OZ,
+                    extraInstructions: "8-16 oz"
+                },
+                {
+                    name: "Onion",
+                    quantity: 1,
+                    extraInstructions: "large, quartered"
+                },
+                {
+                    name: "Beef Broth",
+                    quantity: 8,
+                    quantityUnit: Unit.OZ,
+                    extraInstructions: "1 can"
+                }
+            ],
+            instructions: [
+                "Place pork loin, fat side down, in a 9x13 pan and arrange vegetables around it.",
+                "In a small bowl, mix garlic powder, onion powder, seasoned salt, and black pepper until combined. Rub it into the pork. (Top only, not the bottom.)",
+                "Sprinkle the parsley on top, and then the garlic. Drizzle the olive oil over the top of the pork. You can season the vegetables as well. Just sprinkle all the same dry rub over the vegetables.",
+                "Add beef broth from one of the corners of the pan, do not pour over the pork. Place foil slightly vented, over the pork, and putting the pan. Cook on 325 for 2 ½ hours. Midway through, rotate the pork so the fat side is up and replace the foil so it is covered again.",
+                "After it is done, take foil off and put the broiler on high. Flip the pork again to meat side up and broil for 10 minutes. You will do this twice (meat side up 10 minutes, fat side up 10 minutes, and then meat side up one last time for 10 minutes) for a total of 30 minutes.",
+                "Let the meat rest 30 minutes"
+            ]
+        },
+        {
+            slug: "peppermint-patties",
+            name: "Peppermint Patties",
+            ingredients: [
+                {
+                    name: "Butter",
+                    quantity: 0.25,
+                    quantityUnit: Unit.CUP,
+                    extraInstructions: "softened"
+                },
+                {
+                    name: "Light Corn Syrup",
+                    quantity: 0.33,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Peppermint Extract",
+                    quantity: 1,
+                    quantityUnit: Unit.TEASPOON,
+                    extraInstructions: "use 1 tsp.-taste - add if you need- 1 mix!"
+                },
+                {
+                    name: "Powdered Sugar",
+                    quantity: 3,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Dark Dipping Chocolate",
+                    quantity: 3,
+                    quantityUnit: Unit.CUP
+                },
+                {
+                    name: "Chocolate Sprinkles",
+                    extraInstructions: "if desired"
+                }
+            ],
+            instructions: [
+                "Combine butter, corn syrup, extract, and powdered sugar in a mixing bowl. Mix with an electric mixer for about 3 minutes, until ingredients are well combined and are holding together.",
+                "Remove dough from bowl, break off into 2 tsp. sized sections, roll into a ball, and gently flatten with your hands. Put patties down one pan lined with wax or parchment paper. Once all the patties are made place the pan in the freezer for 10-15 minutes. Melt the chocolate & with the microwave for 1 minute & 30 seconds. Let sit in microwave! Remove gently and stir. Remove peppermint patties from freezer. Use a fork (and dipping tool to dip each patty into the chocolate, flip to coat the other side), then try to remove any excess. Transfer coated patties to wax paper to cool.",
+                "Store in an airtight container, refrigerate if preferred not is not necessary."
+            ]
+        },
+        {
+            slug: "onion-tomato-cucumber-salad",
+            name: "Onion, Tomato, Cucumber Salad",
+            ingredients: [
+                {
+                    name: "Plum Tomatoes",
+                    quantity: 5,
+                    extraInstructions: "medium, halved lengthwise, and thinly sliced"
+                },
+                {
+                    name: "Red Onion",
+                    quantity: 0.25,
+                    extraInstructions: "peeled, halved lengthwise, and thinly sliced"
+                },
+                {
+                    name: "Cucumber",
+                    quantity: 1,
+                    extraInstructions: "halved lengthwise and thinly sliced"
+                },
+                {
+                    name: "Olive Oil",
+                    quantity: 2,
+                    quantityUnit: Unit.TABLESPOON,
+                    extraInstructions: "generous drizzle"
+                },
+                {
+                    name: "Red Wine Vinegar",
+                    extraInstructions: "2 splashes"
+                },
+                {
+                    name: "Salt and Pepper",
+                    extraInstructions: "to taste"
+                }
+            ],
+            instructions: [
+                "Combine all ingredients in a bowl.",
+                "Let stand 20 minutes before serving."
+            ]
         }
     ]
 }
